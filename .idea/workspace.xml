@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ecd78e3-3d3b-4eb7-bd56-57957ddee272" name="Changes" comment="add users.xlsx" />
+    <list default="true" id="6ecd78e3-3d3b-4eb7-bd56-57957ddee272" name="Changes" comment="add library rest assured and jackson core">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExcelDataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExcelDataProviders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExcelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExcelTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +40,19 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.ExcelTest.test2">
+  <component name="RunManager" selected="TestNG.ExcelTest.checkUsers">
+    <configuration name="ExcelTest.checkUsers" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ExcelDataProvider" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExcelTest" />
+      <option name="METHOD_NAME" value="checkUsers" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExcelTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ExcelDataProvider" />
       <option name="PACKAGE_NAME" value="" />
@@ -63,6 +79,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ExcelTest.checkUsers" />
         <item itemvalue="TestNG.ExcelTest.test2" />
         <item itemvalue="TestNG.ExcelTest.test" />
       </list>
@@ -112,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660573334273</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add library rest assured and jackson core">
+      <created>1660573541756</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660573541757</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +156,7 @@
     <MESSAGE value="add ExcelReader.java" />
     <MESSAGE value="add ExcelDataProviders.java" />
     <MESSAGE value="add users.xlsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="add users.xlsx" />
+    <MESSAGE value="add library rest assured and jackson core" />
+    <option name="LAST_COMMIT_MESSAGE" value="add library rest assured and jackson core" />
   </component>
 </project>
