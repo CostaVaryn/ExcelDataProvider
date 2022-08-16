@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ecd78e3-3d3b-4eb7-bd56-57957ddee272" name="Changes" comment="add library rest assured and jackson core">
+    <list default="true" id="6ecd78e3-3d3b-4eb7-bd56-57957ddee272" name="Changes" comment="update ExcelDataProviders.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ExcelDataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExcelDataProviders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ExcelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExcelTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +134,35 @@
       <option name="project" value="LOCAL" />
       <updated>1660573541757</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add xml">
+      <created>1660637293640</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660637293640</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add xlsx file">
+      <created>1660637330420</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660637330420</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update ExcelTest.java">
+      <created>1660637366455</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660637366455</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update ExcelDataProviders.java">
+      <created>1660637390141</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1660637390141</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +183,10 @@
     <MESSAGE value="add ExcelDataProviders.java" />
     <MESSAGE value="add users.xlsx" />
     <MESSAGE value="add library rest assured and jackson core" />
-    <option name="LAST_COMMIT_MESSAGE" value="add library rest assured and jackson core" />
+    <MESSAGE value="add xml" />
+    <MESSAGE value="add xlsx file" />
+    <MESSAGE value="update ExcelTest.java" />
+    <MESSAGE value="update ExcelDataProviders.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="update ExcelDataProviders.java" />
   </component>
 </project>
