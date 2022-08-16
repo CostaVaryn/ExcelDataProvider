@@ -16,4 +16,11 @@ public class ExcelDataProviders {
         ExcelReader excelReader = new ExcelReader(path,"Лист2");
         return excelReader.getCustomSheetForTDD();
     }
+
+    @DataProvider
+    public Object[][] usersFromApi() throws Exception {
+        String path = "src/main/resources/usersForReqres.xlsx";
+        ExcelReader excelReader = new ExcelReader(path);
+        return excelReader.getSheetDataForTDD();
+    }
 }
