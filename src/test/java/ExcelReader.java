@@ -21,7 +21,7 @@ public class ExcelReader {
             FileInputStream fileInputStream = new FileInputStream(file);
             book = new XSSFWorkbook(fileInputStream);
             sheet = book.getSheet("Лист1");
-        } catch (IOException e){
+        } catch (IOException e) {
             throw new IOException("Sorry unsupported format");
         }
     }
@@ -34,7 +34,7 @@ public class ExcelReader {
             FileInputStream fileInputStream = new FileInputStream(file);
             book = new XSSFWorkbook(fileInputStream);
             sheet = book.getSheet(sheetName);
-        } catch (IOException e){
+        } catch (IOException e) {
             throw new IOException("Sorry unsupported format");
         }
     }
@@ -42,7 +42,7 @@ public class ExcelReader {
     private String cellToString(XSSFCell cell) throws Exception {
         Object result = null;
         CellType type = cell.getCellType();
-        switch (type){
+        switch (type) {
             case NUMERIC:
                 result = cell.getNumericCellValue();
                 break;
@@ -60,12 +60,12 @@ public class ExcelReader {
         return result.toString();
     }
 
-    // получить размер слобцов
-    private int xlsxCountColumn(){
+    // Получить размер слобцов
+    private int xlsxCountColumn() {
         return sheet.getRow(0).getLastCellNum();
     }
 
-    private int xlsxCountRow(){
+    private int xlsxCountRow() {
         return sheet.getLastRowNum() + 1;
     }
 
@@ -77,13 +77,13 @@ public class ExcelReader {
         int numberOfColumn = xlsxCountColumn();
         int numberOfRows = xlsxCountRow();
         String[][] data = new String[numberOfRows-1][numberOfColumn];
-        for(int i = 1; i<numberOfRows; i++){
-            for(int j = 0; j<numberOfColumn; j++){
+        for(int i = 1; i<numberOfRows; i++) {
+            for(int j = 0; j<numberOfColumn; j++) {
                 XSSFRow row = sheet.getRow(i);
                 XSSFCell cell = row.getCell(j);
                 String value = cellToString(cell);
                 data[i-1][j] = value;
-                if(value == null){
+                if(value == null) {
                     System.out.println("Empty cells");
                 }
             }
@@ -98,8 +98,8 @@ public class ExcelReader {
         int numberOfColumn = xlsxCountColumn();
         int numberOfRows = xlsxCountRow();
         String[][] data = new String[numberOfRows-1][numberOfColumn];
-        for(int i = 1; i<numberOfRows; i++){
-            for(int j = 0; j<numberOfColumn; j++){
+        for(int i = 1; i<numberOfRows; i++) {
+            for(int j = 0; j<numberOfColumn; j++) {
                 XSSFRow row = sheet.getRow(i);
                 XSSFCell cell = row.getCell(j);
                 String value = cellToString(cell);
