@@ -104,7 +104,7 @@ public class ExcelReader {
                 XSSFCell cell = row.getCell(j);
                 String value = cellToString(cell);
                 data[i-1][j] = value;
-                if(value == null){
+                if(value == null) {
                     System.out.println("Empty cells");
                 }
             }
