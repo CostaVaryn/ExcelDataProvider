@@ -37,8 +37,8 @@ public class ExcelTest {
     }
     /**
      * @DataProvider
-     * public Object[][] data(){
-     *      return new Object[][]{
+     * public Object[][] data() {
+     *      return new Object[][] {
      *          {"Adam"},
      *          {"Mark"},
      *          {"Petr"}
